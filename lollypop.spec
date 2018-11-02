@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
-Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
+Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.bz2
 Source1:	lollypop_ru.tar.gz
 BuildRequires:	desktop-file-utils
 BuildRequires:	git
@@ -17,9 +17,9 @@ BuildRequires:	itstool
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.20
-BuildRequires:	pkgconfig(python3)
-Requires:	python3-dbus
-Requires:	python3-gi-cairo
+BuildRequires:	pkgconfig(python)
+Requires:	python-dbus
+Requires:	python-gi-cairo
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
 Requires:	gstreamer1.0-plugins-ugly
@@ -27,7 +27,7 @@ Requires:	typelib(Gst)
 Requires:	typelib(Soup)
 Requires:	typelib(TotemPlParser)
 Suggests:	lollypop-portal
-Suggests:	python3-pylast
+Suggests:	python-pylast
 BuildArch:	noarch
 
 %description
@@ -52,11 +52,6 @@ Lollypop is a new GNOME music playing application.
 
 %prep
 %setup -q
-
-pushd subprojects/po
-tar -xvzf %{SOURCE1}
-popd
-
 
 %build
 %meson
