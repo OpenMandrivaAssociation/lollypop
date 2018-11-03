@@ -8,7 +8,6 @@ License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
 Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.bz2
-Source1:	lollypop_ru.tar.gz
 BuildRequires:	desktop-file-utils
 BuildRequires:	git
 BuildRequires:	meson >= 0.40.0
