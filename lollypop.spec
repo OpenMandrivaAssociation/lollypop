@@ -7,7 +7,7 @@ Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
-Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.bz2
+Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	desktop-file-utils
 BuildRequires:  appstream-util
 BuildRequires:	git
