@@ -28,7 +28,8 @@ Requires:	gstreamer1.0-plugins-ugly
 Requires:	typelib(Gst)
 Requires:	typelib(Soup)
 Requires:	typelib(TotemPlParser)
-Suggests:	lollypop-portal
+# Not imported yet. Disable until it's done (penguin).
+#Suggests:	lollypop-portal
 Suggests:	python-pylast
 BuildArch:	noarch
 
@@ -48,6 +49,7 @@ Lollypop is a new GNOME music playing application.
 %{_datadir}/gnome-shell/search-providers/lollypop-search-provider.ini
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.png
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop-symbolic.svg
+%{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.svg
 %{py3_puresitedir}/%{name}
 
 #----------------------------------------------------------------------------
