@@ -3,7 +3,7 @@
 Summary:	A music player for GNOME
 Name:		lollypop
 Version:	0.9.610
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
@@ -26,6 +26,8 @@ Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
 Requires:	gstreamer1.0-plugins-ugly
 Requires:	typelib(Gst)
+Requires: typelib(GstAudio)
+Requires: typelib(GstPbutils)
 Requires:	typelib(Soup)
 Requires:	typelib(TotemPlParser)
 # Not imported yet. Disable until it's done (penguin).
