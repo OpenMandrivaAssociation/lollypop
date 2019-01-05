@@ -26,16 +26,16 @@ Requires:	python-gi-cairo
 Requires:	gstreamer1.0-plugins-base
 Requires:	gstreamer1.0-plugins-good
 Requires:	gstreamer1.0-plugins-ugly
-Requires:	typelib(Gst)
+Requires: typelib(Gst)
 Requires: typelib(GstAudio)
 Requires: typelib(GstPbutils)
 Requires: typelib(GstVideo)
 Requires: typelib(GstTag)
-Requires:	typelib(Soup)
-Requires:	typelib(TotemPlParser)
+Requires: typelib(Soup)
+Requires: typelib(TotemPlParser)
 # Not imported yet. Disable until it's done (penguin).
 #Suggests:	lollypop-portal
-Suggests:	python-pylast
+#Suggests:	python-pylast
 BuildArch:	noarch
 
 %description
