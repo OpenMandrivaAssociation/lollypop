@@ -63,6 +63,8 @@ Lollypop is a new GNOME music playing application.
 %setup -q
 
 %build
+export CC=gcc
+export CXX=g++
 %meson
 %meson_build
 
