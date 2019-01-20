@@ -51,7 +51,7 @@ Lollypop is a new GNOME music playing application.
 %{_datadir}/applications/org.gnome.Lollypop.desktop
 %{_datadir}/glib-2.0/schemas/*.gschema.xml
 %{_datadir}/dbus-1/services/org.gnome.Lollypop.SearchProvider.service
-%{_datadir}/gnome-shell/search-providers/lollypop-search-provider.ini
+#{_datadir}/gnome-shell/search-providers/lollypop-search-provider.ini
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.png
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop-symbolic.svg
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.svg
