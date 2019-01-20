@@ -2,14 +2,14 @@
 
 Summary:	A music player for GNOME
 Name:		lollypop
-Version:	0.9.909
+Version:	0.9.912
 Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
 Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
 # This is correct sources with subprojekt/po files.
-#Sources: https://gitlab.gnome.org/World/lollypop/uploads/606cc69d417765de294724c952fd3237/lollypop-0.9.909.tar.xz
+#Sources: https://gitlab.gnome.org/World/lollypop/uploads/4341bbeba7c5fc488788fc50f67f6c99/lollypop-0.9.912.tar.xz
 BuildRequires:	desktop-file-utils
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(appstream-glib)
