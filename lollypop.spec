@@ -9,7 +9,7 @@ Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
 Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
 # This is correct sources with subprojekt/po files.
-#Sources: https://gitlab.gnome.org/World/lollypop/uploads/4341bbeba7c5fc488788fc50f67f6c99/lollypop-0.9.912.tar.xz
+#Sources: https://gitlab.gnome.org/World/lollypop/uploads/74355509da0f6ec1ed672a08e851fb82/lollypop-1.2.13.tar.xz
 BuildRequires:	desktop-file-utils
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(appstream-glib)
