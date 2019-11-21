@@ -21,6 +21,7 @@ BuildRequires:	intltool
 BuildRequires:	itstool
 BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
+BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.20
 BuildRequires:	pkgconfig(python)
 BuildRequires:  pkgconfig(libsoup-2.4)
