@@ -48,7 +48,7 @@ Lollypop is a new GNOME music playing application.
 %files -f %{name}.lang
 %doc AUTHORS
 %{_bindir}/%{name}
-%{_bindir}/%{name}-cli
+#{_bindir}/%{name}-cli
 %{_libexecdir}/%{name}-sp
 %{_datadir}/%{name}
 %{_datadir}/metainfo/org.gnome.Lollypop.appdata.xml
