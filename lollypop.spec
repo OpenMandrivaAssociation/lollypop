@@ -59,8 +59,9 @@ Lollypop is a new GNOME music playing application.
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.png
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop-symbolic.svg
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.svg
+%{_iconsdir}/hicolor/scalable/apps/org.gnome.Lollypop*
 %{py3_puresitedir}/%{name}
-
+%{_mandir}/man1/lollypop.1.xz
 #----------------------------------------------------------------------------
 
 %prep
