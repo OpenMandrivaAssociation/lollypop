@@ -10,6 +10,8 @@ Url:		https://gitlab.gnome.org/World/lollypop/tags
 Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
 # This is correct sources with subprojekt/po files.
 #Sources: https://gitlab.gnome.org/World/lollypop/uploads/74355509da0f6ec1ed672a08e851fb82/lollypop-1.2.13.tar.xz
+
+BuildRequires:  cmake
 BuildRequires:	desktop-file-utils
 BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(appstream-glib)
@@ -21,6 +23,7 @@ BuildRequires:	pkgconfig(gio-2.0)
 BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.20
 BuildRequires:	pkgconfig(python)
+BuildRequires:  pkgconfig(libsoup-2.4)
 Requires:	python-dbus
 Requires:	python-gi-cairo
 Requires:	gstreamer1.0-plugins-base
