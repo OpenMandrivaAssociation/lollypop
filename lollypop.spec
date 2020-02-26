@@ -2,14 +2,12 @@
 
 Summary:	A music player for GNOME
 Name:		lollypop
-Version:	1.2.13
-Release:	2
+Version:	1.2.23
+Release:	1
 License:	GPLv3+
 Group:		Sound
 Url:		https://gitlab.gnome.org/World/lollypop/tags
-Source0:	https://gitlab.gnome.org/World/lollypop/-/archive/%{version}/%{name}-%{version}.tar.xz
-# This is correct sources with subprojekt/po files.
-#Sources: https://gitlab.gnome.org/World/lollypop/uploads/74355509da0f6ec1ed672a08e851fb82/lollypop-1.2.13.tar.xz
+Source0:	https://adishatz.org/lollypop/%{name}-%{version}.tar.xz
 
 BuildRequires:  cmake
 BuildRequires:	desktop-file-utils
@@ -61,7 +59,7 @@ Lollypop is a new GNOME music playing application.
 %{_iconsdir}/hicolor/*/apps/org.gnome.Lollypop.svg
 %{_iconsdir}/hicolor/scalable/apps/org.gnome.Lollypop*
 %{py3_puresitedir}/%{name}
-%{_mandir}/man1/lollypop.1.xz
+%{_mandir}/man1/lollypop.1.*
 #----------------------------------------------------------------------------
 
 %prep
