@@ -2,7 +2,7 @@
 
 Summary:	A music player for GNOME
 Name:		lollypop
-Version:	1.2.32
+Version:	1.2.34
 Release:	1
 License:	GPLv3+
 Group:		Sound
@@ -69,9 +69,7 @@ Lollypop is a new GNOME music playing application.
 %meson
 %meson_build
 
-
 %install
 %meson_install
 
 %find_lang %{name} --with-gnome
-
