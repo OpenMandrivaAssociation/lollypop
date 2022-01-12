@@ -2,7 +2,7 @@
 
 Summary:	A music player for GNOME
 Name:		lollypop
-Version:	1.4.26
+Version:	1.4.27
 Release:	1
 License:	GPLv3+
 Group:		Sound
