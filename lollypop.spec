@@ -22,7 +22,7 @@ BuildRequires:	pkgconfig(gobject-introspection-1.0) >= 1.35.9
 BuildRequires:	pkgconfig(pygobject-3.0)
 BuildRequires:	pkgconfig(gtk+-3.0) >= 3.20
 BuildRequires:	pkgconfig(python)
-BuildRequires:	pkgconfig(libsoup-2.4)
+BuildRequires:	pkgconfig(libsoup-3.0)
 Requires:	python-dbus
 Requires:	python-gi-cairo
 Requires:	gstreamer1.0-plugins-base
